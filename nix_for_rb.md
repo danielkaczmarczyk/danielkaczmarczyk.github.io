@@ -1,0 +1,1 @@
+https://blog.appsignal.com/2024/08/07/an-introduction-to-nix-for-ruby-developers.html
