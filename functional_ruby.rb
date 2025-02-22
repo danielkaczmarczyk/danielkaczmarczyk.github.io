@@ -77,9 +77,9 @@ end
 string = "test"
 
 modified = string
-  .then { |str| str.upcase }
+  .then { up _1 }
   .then { |str| str[0..2]}
-  .then { |str| concat_with_self(str, 3)}
+  .then { concat_with_self(_1, 3)}
 
 p modified
 
